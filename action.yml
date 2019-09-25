@@ -1,0 +1,12 @@
+name: Greeting
+description: Welcome everyone
+inputs:
+  name:
+    description: who are you
+    required: true
+outputs:
+  greeting:
+    description: welcome string
+runs:
+  using: docker
+  image: Dockerfile
