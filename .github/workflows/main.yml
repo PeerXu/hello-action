@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: hello
       id: hello
-      uses: PeerXu/hello-action
+      uses: PeerXu/hello-action@master
       with:
         name: "Peer"
     - name: hello-output
